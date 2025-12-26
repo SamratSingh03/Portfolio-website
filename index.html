@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm an <span class="highlight">Engineering Student</span></h1>
+            <p>Passionate about Digital Electronics, AI, and Design.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <img src="images/profile.jpeg" alt="Profile Picture" class="profile-img"> 
+                <div class="about-text">
+                    <p>I am a 3rd-semester Engineering student affiliated with CSVTU, Chhattisgarh. My academic focus is on bridging the gap between hardware and software.</p>
+                    <p>I have a strong interest in <strong>Operating Systems</strong> and <strong>Digital Logic Design</strong>. When I'm not coding, I enjoy exploring new philosophy and following the latest tech developments in India.also enjoy gaming a lot</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Web Dev</h3>
+                    <p>HTML5,CSS,Responsive Design</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Core</h3>
+                    <p>C/C++, Lisp, Prolog (AI Basics),Python </p>
+                </div>
+                <div class="skill-card">
+                    <h3>Engineering</h3>
+                    <p>AutoCAD,Circuit Analysis,Digital Logic</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Logic Gate Simulator</h3>
+                    <p>A web-based tool to visualize AND/OR/NOT gate operations for digital electronics students.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>A responsive portfolio website built with clean HTML5 and CSS3 to showcase academic progress.</p>
+                </div>
+                <div class="project-card">
+                    <h3>AI Pathfinding</h3>
+                    <p>A basic implementation of search algorithms using Lisp to solve maze problems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaborations or project discussions.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Engineering Student Portfolio. Built for College Project.</p>
+    </footer>
+
+</body>
+</html>
